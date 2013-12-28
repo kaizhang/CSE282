@@ -15,14 +15,16 @@ http://www.polymer-project.org/.
     <link rel="stylesheet" href="polymer_ui_collapsible.css">
 
     <div on-tap="{{headerTap}}" on-click="{{headerTap}}">
+      <div style="cursor: pointer">
       <template if="{{active}}">
-      <span style="margin-left:5px;font-family: monospace; font-size:1.3em;">-</span>
+      <span style="margin-left:5px;font-family: monospace; font-size: 1.3em;">-</span>
       </template>
       <template if="{{!active}}">
       <span style="margin-left:5px;font-family: monospace; font-size: 1.3em;">+</span>
       </template>
 
       <content select=".polymer-ui-collapsible-header"></content>
+      </div>
     </div>
 
     <div id="collapsibleBody" on-tap="{{bodyTap}}" on-click="{{bodyTap}}">

@@ -35,8 +35,7 @@ html {
 }
 body {
 	font-family: "Latin Modern Roman9";
-	margin: 10px auto;
-    padding: 3px;
+	margin: 0px auto;
 	font-size: 18px;
 	width: 978px;
 	box-shadow: 0px 0px 30px 2px gray;
@@ -57,10 +56,6 @@ h3 {
 h4 {
     font-family: "Latin Modern Sans10";
     font-size: 1.1em;
-}
-#container {
-  background: white;
-  padding: 10px 2em;
 }
 p,li {
 	text-align: justify;

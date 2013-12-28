@@ -12,16 +12,31 @@
     <script src="packages/browser/dart.js"></script>
 
     <style>
+        ::-webkit-scrollbar {
+            width: 12px;
+        }
+         
+        ::-webkit-scrollbar-track {
+            -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+            border-radius: 7px;
+        }
+         
+        ::-webkit-scrollbar-thumb {
+            border-radius: 10px;
+            -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+        }
+
         html {
             height: 100%;
         }
         body {
             position: relative;
-            height: 95%;
+            height: 100%;
         }
         #container {
             overflow: auto;
-            height: 95%;
+            height: 100%;
+            padding: 0px 12px;
         }
         nav {
             position: absolute;
@@ -47,9 +62,8 @@
       
       .polymer-ui-collapsible-header {
         display: inline-block;
-        padding: 10px;
+        padding: 6px;
         font-weight: bold;
-        cursor: pointer;
         margin: 5px;
       }
       
@@ -71,9 +85,11 @@
     </nav>
 
     <header>
-        <h1>[CSE 282/BENG 202] An Introduction to Bioinformatics Algorithms</h1>
-        <p>Instructors: Dr. Terry Gaasterland (SIO) and Dr. Pavel Pevzner (CSE)</p>
+        <h1>[CSE 282/BENG 202] An Introduction to Bioinformatics Algorithms (Winter 2014)</h1>
+        <p>Instructors: <a href="http://genomes.ucsd.edu/gaasterland.shtml">Dr. Terry Gaasterland</a> (SIO) and <a href="http://www-cse.ucsd.edu/users/ppevzner/">Dr. Pavel Pevzner</a> (CSE)</p>
+        <p>Teaching Assistant: <a href="http://kzhang.org">Kai Zhang</a> (BISB)</p>
     </header>
+
 
     <polymer-ui-collapsible>
         <h3 class="polymer-ui-collapsible-header">Prerequisites</h3>
@@ -81,6 +97,7 @@
             <p>The course assumes some prior background in biology, some algorithmic culture (an equiva-lent of CSE 101), and some programming skills.</p>
         </div>
     </polymer-ui-collapsible>
+
 
     <polymer-ui-collapsible>
         <h3 class="polymer-ui-collapsible-header">Textbooks</h3>
@@ -93,6 +110,17 @@
         </div>
     </polymer-ui-collapsible>
 
+
+    <polymer-ui-collapsible>
+        <h3 class="polymer-ui-collapsible-header">Office Hours</h3>
+        <ul>
+            <li>Dr. Terry Gaasterland: Friday 3-5 in NSB 6117</li>
+            <li>Dr. Pavel Pevzner: Thursday 3-5</li>
+            <li>Kai Zhang: Tuesday 12-2</li>
+        </ul>
+    </polymer-ui-collapsible>
+
+
     <polymer-ui-collapsible>
         <h3 class="polymer-ui-collapsible-header">Grading</h3>
         <div>
@@ -104,8 +132,9 @@
         </div>
     </polymer-ui-collapsible>
 
+
     <polymer-ui-collapsible active="true">
-        <h3 class="polymer-ui-collapsible-header">Homework Deadlines</h2>
+        <h3 class="polymer-ui-collapsible-header">Homework Deadlines</h3>
         <div>
             <table>
                 <ol>
@@ -116,8 +145,13 @@
                 </ol>
             </table>
         </div>
-
     </polymer-ui-collapsible>
+
+
+    <polymer-ui-collapsible>
+        <h3 class="polymer-ui-collapsible-header">Class Project</h3>
+    </polymer-ui-collapsible>
+
 
     <footer>
         <hr />
