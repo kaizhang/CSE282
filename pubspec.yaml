@@ -1,0 +1,7 @@
+name: cse282
+description: The homepage of CSE282
+dependencies:
+  polymer: any
+transformers:
+- polymer:
+    entry_points: web/index.html

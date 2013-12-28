@@ -1,0 +1,67 @@
+@font-face {
+  font-family: "Latin Modern Sans10";
+  src: url('lmsans10-regular.otf');
+}
+@font-face {
+  font-family: "Latin Modern Sans10";
+  src: url('lmsans10-oblique.otf');
+  font-style: oblique;
+}
+@font-face {
+  font-family: "Latin Modern Sans10";
+  src: url('lmsans10-bold.otf');
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Latin Modern Roman9";
+  src: url('lmroman9-regular.otf');
+}
+@font-face {
+  font-family: "Latin Modern Roman9";
+  src: url('lmroman9-bold.otf');
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Latin Modern Roman9";
+  src: url('lmroman9-italic.otf');
+  font-style: italic;
+}
+@font-face {
+  font-family: ChopinScript;
+  src: url('ChopinScript.otf');
+}
+html {
+  width: 100%;
+}
+body {
+	font-family: "Latin Modern Roman9";
+	margin: 10px auto;
+    padding: 3px;
+	font-size: 18px;
+	width: 978px;
+	box-shadow: 0px 0px 30px 2px gray;
+}
+h1 {
+	font: 2em "Latin Modern Sans10";
+	text-align: center;
+	margin: 0.5em;
+}
+h2 {
+    font-family: "Latin Modern Sans10";
+    font-size: 1.4em;
+}
+h3 {
+    font-family: "Latin Modern Sans10";
+    font-size: 1.2em;
+}
+h4 {
+    font-family: "Latin Modern Sans10";
+    font-size: 1.1em;
+}
+#container {
+  background: white;
+  padding: 10px 2em;
+}
+p,li {
+	text-align: justify;
+}
