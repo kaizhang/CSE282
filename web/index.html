@@ -5,73 +5,12 @@
     <meta charset="utf-8" />
     <link rel="import" href="polymer_ui_collapsible/polymer_ui_collapsible.html">
     <link rel="stylesheet" href="fonts/style.css">
+    <link rel="stylesheet" href="main.css">
 
     <script type="application/dart">
         export 'package:polymer/init.dart';
     </script>
     <script src="packages/browser/dart.js"></script>
-
-    <style>
-        ::-webkit-scrollbar {
-            width: 12px;
-        }
-         
-        ::-webkit-scrollbar-track {
-            -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
-            border-radius: 7px;
-        }
-         
-        ::-webkit-scrollbar-thumb {
-            border-radius: 10px;
-            -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
-        }
-
-        html {
-            height: 100%;
-        }
-        body {
-            position: relative;
-            height: 100%;
-        }
-        #container {
-            overflow: auto;
-            height: 100%;
-            padding: 0px 12px;
-        }
-        nav {
-            position: absolute;
-            left: -155px;
-            top: 30%;
-            border: 2px solid #ddd;
-            border-radius: 5px;
-        }
-        nav ul {
-            list-style-type: none;
-            padding: 0px 15px;
-        }
-        nav li {
-            margin: 10px 0px;
-        }
-
-      polymer-ui-collapsible {
-        margin-bottom: 15px;
-        border: 1px solid #ddd;
-        border-radius: 3px;
-        padding: 0px 5px;
-      }
-      
-      .polymer-ui-collapsible-header {
-        display: inline-block;
-        padding: 6px;
-        font-weight: bold;
-        margin: 5px;
-      }
-      
-      .content {
-        padding: 10px;
-      }
-    </style>
-
 </head>
 <body>
     <div id="container">
@@ -79,19 +18,18 @@
     <nav>
         <h1 style="font-family:ChopinScript;font-size: 2em;margin: 2px;">Link</h1>
         <ul>
-            <li><a href="https://beta.stepic.org/Bioinformatics-Algorithms-2/" target="stepic"><img src="images/stepic_logo_dark.png" width=70px height=75px alt="Stepic"></a></li>
-            <li><a href="http://rosalind.info" target="rosalind"><img src="images/rosalind.png" width=75px height=70px alt=""></a></li>
+            <li><a href="https://beta.stepic.org/Bioinformatics-Algorithms-2/" target="stepic"><img src="images/stepic_logo_dark.png" width=75px height=75px alt="Stepic"></a></li>
+            <li><a href="http://rosalind.info" target="rosalind"><img src="images/rosalind.png" width=75px height=75px alt=""></a></li>
         </ul>
     </nav>
 
     <header>
         <h1>[CSE 282/BENG 202] An Introduction to Bioinformatics Algorithms (Winter 2014)</h1>
-        <p>Instructors: <a href="http://genomes.ucsd.edu/gaasterland.shtml">Dr. Terry Gaasterland</a> (SIO) and <a href="http://www-cse.ucsd.edu/users/ppevzner/">Dr. Pavel Pevzner</a> (CSE)</p>
-        <p>Teaching Assistant: <a href="http://kzhang.org">Kai Zhang</a> (BISB)</p>
+        <h2>Instructors: <a href="mailto:tgaasterland@ucsd.edu">Dr. Terry Gaasterland</a> (SIO) and <a href="mailto:ppevzner@cs.ucsd.edu">Dr. Pavel Pevzner</a> (CSE) | Teaching Assistant: <a href="mailto:kaz007@eng.ucsd.edu">Kai Zhang</a> (BISB)</h2>
     </header>
 
 
-    <polymer-ui-collapsible>
+    <polymer-ui-collapsible style="background:rgba(170,179,171,0.5)">
         <h3 class="polymer-ui-collapsible-header">Prerequisites</h3>
         <div>
             <p>The course assumes some prior background in biology, some algorithmic culture (an equiva-lent of CSE 101), and some programming skills.</p>
@@ -99,7 +37,7 @@
     </polymer-ui-collapsible>
 
 
-    <polymer-ui-collapsible>
+    <polymer-ui-collapsible style="background:rgba(235,239,201,0.5)">
         <h3 class="polymer-ui-collapsible-header">Textbooks</h3>
         <div>
             <p>There is no required book for this course.</p>
@@ -111,7 +49,7 @@
     </polymer-ui-collapsible>
 
 
-    <polymer-ui-collapsible>
+    <polymer-ui-collapsible style="background:rgba(196,203,183,0.5)">
         <h3 class="polymer-ui-collapsible-header">Office Hours</h3>
         <ul>
             <li>Dr. Terry Gaasterland: Friday 3-5 in NSB 6117</li>
@@ -121,7 +59,7 @@
     </polymer-ui-collapsible>
 
 
-    <polymer-ui-collapsible>
+    <polymer-ui-collapsible style="background:rgba(232,202,175,0.5)">
         <h3 class="polymer-ui-collapsible-header">Grading</h3>
         <div>
             <ol>
@@ -133,7 +71,7 @@
     </polymer-ui-collapsible>
 
 
-    <polymer-ui-collapsible active="true">
+    <polymer-ui-collapsible style="background:rgba(238,224,183,0.5)" active="true">
         <h3 class="polymer-ui-collapsible-header">Homework Deadlines</h3>
         <div>
             <table>
@@ -155,6 +93,11 @@
 
     <footer>
         <hr />
+        <img src="images/ucsd.jpg" height=75px width=75px>
+        <img src="images/ucsd_bnfo.png" height=75px>
+        <img src="images/HTML5_Logo.svg" height=75px width=75px>
+        <img src="images/HaskellLogo.png" height=75px width=75px>
+        <img src="images/PythonLogo.png" height=75px width=75px>
     </footer>
 
     </div>
