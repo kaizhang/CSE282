@@ -30,34 +30,3 @@
   font-family: ChopinScript;
   src: url('ChopinScript.otf');
 }
-html {
-  width: 100%;
-}
-body {
-	font-family: "Latin Modern Roman9";
-	margin: 0px auto;
-	font-size: 18px;
-	width: 978px;
-	box-shadow: 0px 0px 30px 2px gray;
-}
-h1 {
-	font-size: 1.5em;
-    font-family: "Latin Modern Sans10";
-	text-align: center;
-	margin: 0.5em;
-}
-h2 {
-    font-family: "Latin Modern Sans10";
-    font-size: 1.4em;
-}
-h3 {
-    font-family: "Latin Modern Sans10";
-    font-size: 1.2em;
-}
-h4 {
-    font-family: "Latin Modern Sans10";
-    font-size: 1.1em;
-}
-p,li {
-	text-align: justify;
-}
