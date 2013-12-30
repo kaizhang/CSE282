@@ -98,3 +98,19 @@ footer {
 footer img {
     margin: 15px;
 }
+table {
+    margin: 0px auto;
+    border-collapse: collapse;
+    border-top: 2px solid gray;
+    border-bottom: 2px solid gray;
+}
+tr {
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+}
+td {
+    padding: 10px 15px;
+}
+tr.odd {
+    background-color: rgba(232,202,175,0.5);
+}
