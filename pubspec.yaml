@@ -4,4 +4,6 @@ dependencies:
   polymer: any
 transformers:
 - polymer:
-    entry_points: web/index.html
+    entry_points: 
+        - web/index.html
+        - web/QA.html
