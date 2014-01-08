@@ -1,4 +1,10 @@
 CSE282
 ======
 
-CSE282 website
+UC San Diego CSE282 class website
+
+Compile the website
+-------------------
+
+pub get
+pub build
