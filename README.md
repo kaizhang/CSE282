@@ -6,5 +6,5 @@ UC San Diego CSE282 class website
 Compile the website
 -------------------
 
-pub get
-pub build
+pub get  
+pub build  
